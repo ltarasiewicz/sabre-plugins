@@ -1,5 +1,26 @@
 # Redux Framework Changelog
 
+## 3.5.4.30
+* Modified: Dissmissable Redux Admin notices now use the WP 4.2 dismiss JS and Ajax. Pretty.
+* Modified: Admin notice code is now it's own isolated class inside core.
+* Modified: Use DB for admin notice, not flat-files. Boo.
+* Modified: Sample configs not to cause errors if multiple users use the same function name.
+* Fixed:    CDN internationalization class.
+* Modified: Parsedown so as not to throw a shortcode error that didn't actually exist.
+
+## 3.5.4.29
+* Fixed:    #2446 - Non google font choice not saving in certain instances.
+
+## 3.5.4.28
+* Fixed:    Added additional check in redux.js to stop errors with panels containing multiple raw fields.
+* Fixed:    Hopefully, the issue of settings not saving on first install when using the Redux API.
+
+## 3.5.4.27
+* Fixed:    Set use_cdn argument to true, by default.
+
+## 3.5.4.26
+* Fixed     #2437 - undefined value set to blank line height.
+
 ## 3.5.4.25
 * Fixed:    #2429 - Required evaluator 'contains' not working properly with multi_check
 
